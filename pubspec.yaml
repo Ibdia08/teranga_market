@@ -1,0 +1,17 @@
+name: teranga_market
+description: Une app moderne de commerce pour le Sénégal
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+  cupertino_icons: ^1.0.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
